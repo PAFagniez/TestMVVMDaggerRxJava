@@ -7,6 +7,9 @@
 * RxJava
 > To handle asynchronous tasks
 
+* Dagger2
+> To inject dependencies
+
 * Retrofit
 > To handle calls to the api
 
