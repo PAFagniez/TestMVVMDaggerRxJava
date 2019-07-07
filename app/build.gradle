@@ -52,6 +52,10 @@ dependencies {
     testImplementation 'org.robolectric:robolectric:3.8'
     debugImplementation 'androidx.fragment:fragment-testing:1.2.0-alpha01'
 
+    //intent mocking support
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
     //Mockito
     testImplementation 'org.mockito:mockito-core:2.25.0'
     androidTestImplementation 'org.mockito:mockito-android:2.25.0'
