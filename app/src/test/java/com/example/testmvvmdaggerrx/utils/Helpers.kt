@@ -12,10 +12,3 @@ fun Any.getJsonFromJsonFile(name: String): JSON {
     Log.i("", jsonString)
     return JSON(jsonString)
 }
-
-fun Any.getJsonStringFromJsonFile(name: String): String {
-
-    val path = javaClass.classLoader!!.getResource(name)
-    val file = File(path.toURI())
-    return file.readText()
-}
